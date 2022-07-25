@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonOptions component Debe de emitir "seleccion" con sus respectivos parametros al hacer click 1`] = `
+<div class="options-container">
+  <ul><button>bulbasaur</button><button>ivysaur</button><button>venusaur</button><button>charmander</button></ul>
+</div>
+`;
+
+exports[`PokemonOptions component Debe de hacer match con el snapshot 1`] = `
+<div class="options-container">
+  <ul><button>bulbasaur</button><button>ivysaur</button><button>venusaur</button><button>charmander</button></ul>
+</div>
+`;

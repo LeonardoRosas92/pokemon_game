@@ -2,7 +2,7 @@
   <div class="options-container">
     <ul>
         <button v-for="pokemon in pokemons" :key="pokemon.id" 
-            @click="$emit('selection', pokemon.id)" :disabled='isDisabled'>
+            @click="$emit('selection', pokemon.id)">
             {{pokemon.name}}
         </button>
     </ul>
